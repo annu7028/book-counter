@@ -1,17 +1,19 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("library.jpg");
     background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
     height: 100vh;
+    font-family:  'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
 }
 
-.container {
-    background: white;
+.container{
     max-width: 80%;
-    margin: auto;
-    border: 3px solid black;
-    border-radius: 10px;
+    margin: 24px auto;
+    padding: 8px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 16px;
 }
 
 h1 {
@@ -25,26 +27,26 @@ h2 {
     margin-bottom: 20px;
 }
 
+p{
+    font-size: 20px;
+}
+
 button {
-    border: 1px solid black;
+    border: none;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 #increment-btn {
-    background: #2C2891;
+    background: #381B14;
 }
 
 #save-btn {
-    background: #1C7947;
-}
-
-#save-el {
-    font-weight: bold;
+    background: #65542F;
 }
 
